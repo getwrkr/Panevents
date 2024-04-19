@@ -6,32 +6,26 @@ export default function CatalogueSection() {
     const items = [
         {
             id: "01",
-            catagory: "BEDROOM SETUP",
-            title: "Cossy Bedroom Setup",
-            image: "/image/badroom.jpg",
-            description: "family drowing room with a clean and comfortable design for your family.",
+            catagory: "Coordination",
+            title: "Event Coordination",
+            image: "/image/coordination.jpg",
+            description: "You need someone you can trust with all of your ideas.",
         },
         {
             id: "02",
-            catagory: "KITCHING SETUP",
-            title: "Neat & Clean Kitchen",
-            image: "/image/kitchen1.jpg",
-            description: "family drowing room with a clean and comfortable design for your family.",
+            catagory: "Planning + Design",
+            title: "Event Planning & Design",
+            image: "/image/Planning.jpg",
+            description: "You see your event, but don’t know a peony from a daisy. Or maybe you know you want your event to stand out but aren’t sure how to even begin.",
         },
         {
             id: "03",
-            catagory: "DROWING SETUP",
-            title: "Family Drowing Room",
-            image: "/image/drowing.jpg",
-            description: "family drowing room with a clean and comfortable design for your family.",
+            catagory: "Full Service",
+            title: "Full Service Planning + Coordination",
+            image: "/image/wedding.jpg",
+            description: "Simply want to marry the love of your life and don’t want to worry about the details? Or maybe you know exactly what you want, but want to make sure it’s done just right.",
         },
-        {
-            id: "04",
-            catagory: "LIVING SETUP",
-            title: "Clean Family Room",
-            image: "/image/living.jpg",
-            description: "family drowing room with a clean and comfortable design for your family.",
-        },
+      
     ]
 
     return (

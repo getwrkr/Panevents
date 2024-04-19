@@ -47,7 +47,7 @@ export default function Navigation() {
             <div className={` ${isOpen ? 'fixed inset-0 z-30 bg-black bg-opacity-50' : 'hidden'} `} onClick={() => setOpen(false)}>
 
             </div>
-            <Link href="/contact" className="items-center hidden px-5 py-2 font-medium text-gray-800 bg-white border border-gray-600 rounded-full shadow lg:inline-flex hover:bg-gray-100">
+            <Link href="mailto:paceandnoblesltd@gmail.com" className="items-center hidden px-5 py-2 font-medium text-gray-800 bg-white border border-gray-600 rounded-full shadow lg:inline-flex hover:bg-gray-100">
                 Contact Us <TbArrowUpRight className="w-5 h-5 ml-2" />
             </Link>
         </>
