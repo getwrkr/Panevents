@@ -9,11 +9,11 @@ export default function AboutComponent() {
             </div>
             <div className="grid lg:grid-cols-2 place-items-center ">
                 <div>
-                    <Image src="/image/aboutfront.png" width={900} height={500} alt="" className="max-md:hidden" />
+                    <Image src="/image/hero.png" width={900} height={500} alt="" className="max-md:hidden" />
                 </div>
 
                 <div className="items-center">
-                    <p className="px-12 pb-4 ">
+                    <p className="px-12 pb-4 text-[20px]">
                     Our mission is to plan and design your event by carefully selecting vendors that cater to your vision, expectation, and budget. Curating a detailed timeline, diagram, and checklist to ensure every little detail is addressed and executed.
                     </p>
                     <div className="flex px-12 pt-4 gap-x-4 ">
